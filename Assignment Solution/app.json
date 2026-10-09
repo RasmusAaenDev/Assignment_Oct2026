@@ -1,5 +1,5 @@
 {
-  "id": "ef911621-3b72-44fa-93d5-0d6b2946d961",
+  "id": "df35f1e9-e905-4448-a7c7-9a9a295f74f6",
   "name": "Assignment Solution",
   "publisher": "Rasmus",
   "version": "1.0.0.0",
@@ -13,19 +13,28 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "29.0.0.0",
   "idRanges": [
     {
       "from": 60100,
       "to": 60149
     }
   ],
-  "features": [
-    "NoImplicitWith"
-  ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "18.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ],
+  "internalsVisibleTo": [
+    {
+      "id": "7027caa9-86b1-477c-890d-f3e8493756d7",
+      "name": "ALProject9_Test",
+      "publisher": "Default Publisher"
+    }
+  ]
 }
